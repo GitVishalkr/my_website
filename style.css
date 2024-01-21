@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+/* navigation section */
+
+#nav-section {
+    border: 2px solid black;
+    height: 65px;
+    background-color: #be3144;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.nav-items {
+    height: 50px;
+    font-size: 1.2rem;
+    margin-top: 4px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.item {
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.item:hover {
+    background-color: rgb(34, 33, 33);
+    padding: 5px 8px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px rgb(64, 62, 62);
+}
+
+/* welcome section */
+
+#welcome-section {
+    height: 70vh;
+    background-color: rgb(34, 33, 33);
+}
+
+.welcome-block {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 26vh;
+}
+
+.text1{
+    color: white;
+}
+
+.text2 {
+    color: #be3144;
+}
+
+/* section 2 */
+
+#section2 {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    background-color: aliceblue
+}
+
+.contents {
+
+}
+
+.heading2 {
+    color: rgb(36, 3, 3);
+    font-size: 2rem;
+    line-height: 2;
+}
+
+ul, .summary {
+    margin-bottom: 1rem;
+}
+
+.icons {
+    margin-left: 1em;
+}
+
+.span-class {
+    
+}
+
+/* footer */
+
+.outer {
+    padding-top: 1rem;
+    background-color: aliceblue;
+}
+
+.social-links {
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+}
+
+.linkedn, .github {
+    cursor: pointer;
+    transition: font-size 0.15s ;
+    font-size: 2rem;
+    color: white;
+}
+
+.linkedn:hover, .github:hover {
+    font-size: 25px;
+}
+
+.copyright {
+  padding: 2rem;
+  border-top: 3px solid red;
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
